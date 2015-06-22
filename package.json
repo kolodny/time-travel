@@ -1,0 +1,38 @@
+{
+  "name": "time-travel",
+  "version": "1.0.0",
+  "description": "simple timer mocks",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "node ./node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- --reporter dot",
+    "test-travis": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --reporter spec"
+  },
+  "keywords": [
+    "timer",
+    "setTimeout",
+    "mock",
+    "test"
+  ],
+  "author": "Moshe Kolodny",
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.15",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "sorted": "^0.1.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolodny/time-travel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kolodny/time-travel/issues"
+  },
+  "homepage": "https://github.com/kolodny/time-travel#readme"
+}
